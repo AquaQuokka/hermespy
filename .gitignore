@@ -1,0 +1,6 @@
+build/
+drafts/
+prefabs/
+sent/
+*.spec
+TODO.md
