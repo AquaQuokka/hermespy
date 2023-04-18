@@ -10,11 +10,8 @@ HermesPy is an SMTP client which is lightweight, fast, and easy to use.
 
 # FAQ
 
-### Q: Wait... What happened to all the old repos?
-#### A: Yeah, sorry about that! I kinda... uh... did a Git oopsie. Again... ...and again...
-
 ### Q: Why is HermesPy only compatible with Windows?
-#### A: HermesPy relies on the WinDLL framework to create dialogues, and HermesPy also depends on Notepad for editing messages. This will change eventually in future versions of HermesPy for compatibility with other operating systems. However, this will require a custom text editor to be created and distributed with the client.
+#### A: HermesPy relies on the WinDLL framework to create dialogues, and HermesPy also depends on Notepad for editing messages. This will change eventually in future versions of HermesPy for compatibility with other operating systems. However, this will require integrating a text editor like [Newt](https://github.com/TheNewtProject/app) into the client.
 
 
 ### Q: Why doesn't HermesPy work with attachments?
