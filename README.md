@@ -55,7 +55,7 @@ port = 587
 you = john.smith@example.com
 password = *
 ```
-##### *Figure 1* {#1}
+##### *Figure 1* {#figure-1}
 
 
 
@@ -158,5 +158,3 @@ A dialogue will open asking you if you wish to overwrite `message.txt`
 4. Save your `varfile` and `template.json` files.
 
 If you do not require any tags in your prefab, then you can skip creating a `varfile` file and/or declarations.
-
-##### End {#eof}
