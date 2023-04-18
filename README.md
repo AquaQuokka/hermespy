@@ -11,34 +11,34 @@ HermesPy is an SMTP client which is lightweight, fast, and easy to use.
 # FAQ {#faq}
 
 ### Q: Why is HermesPy only compatible with Windows? {#windows}
-#### A: HermesPy relies on the WinDLL framework to create dialogues, and HermesPy also depends on Notepad for editing messages. This will change eventually in future versions of HermesPy for compatibility with other operating systems. However, this will require integrating a text editor like [Newt](https://github.com/TheNewtProject/app) into the client.
+#### A: HermesPy relies on the WinDLL framework to create dialogues, and HermesPy also depends on Notepad for editing messages. This will change eventually in future versions of HermesPy for compatibility with other operating systems. However, this will require integrating a text editor like [Newt](https://github.com/TheNewtProject/app) into the client. {#windows-a}
 
 
 ### Q: Why doesn't HermesPy work with attachments? {#no-files}
-#### A: HermesPy currently only supports SMTP for sending emails, and SMTP does not support attachments so HermesPy cannot send attachments.
+#### A: HermesPy currently only supports SMTP for sending emails, and SMTP does not support attachments so HermesPy cannot send attachments. {#no-files-a}
 
 
 ### Q: Why does HermesPy send emails but not receive them? {#no-inbox}
-#### A: HermesPy is a Python script that only runs when you run the script, which means that in order to receive emails, the script would have to run 24/7. Also, it would have to download each email for reading, which is dangerous because the email could contain lots of text and could crash the computer, or it could contain harmful content or scripts. Also, if you receive lots of emails, it would fill up storage very quickly.
+#### A: HermesPy is a Python script that only runs when you run the script, which means that in order to receive emails, the script would have to run 24/7. Also, it would have to download each email for reading, which is dangerous because the email could contain lots of text and could crash the computer, or it could contain harmful content or scripts. Also, if you receive lots of emails, it would fill up storage very quickly. {#no-inbox-a}
 
 
 ### Q: Why can't I log into my email? {#no-login}
-#### A: If you are using Gmail, then you need to enable "Less secure apps" in your settings. For Outlook users, you need to generate an app password in your Microsoft account's security dashboard, and paste it into your `config.ini` file. However, if you are using the `config.ini` file for password storage or authentication, then you need to make sure that you do not accidentally (or deliberately) upload your `config.ini` file to the internet. This will allow people to log into your account without having to use multi-factor authentication.
+#### A: If you are using Gmail, then you need to enable "Less secure apps" in your settings. For Outlook users, you need to generate an app password in your Microsoft account's security dashboard, and paste it into your `config.ini` file. However, if you are using the `config.ini` file for password storage or authentication, then you need to make sure that you do not accidentally (or deliberately) upload your `config.ini` file to the internet. This will allow people to log into your account without having to use multi-factor authentication. {#no-login-a}
 
 ### Q: Am I allowed to make a fork/mod of this repo? {#fork}
-#### A: Of course! If you wish to make a fork of this repository, go ahead! As long as you don't blatantly steal any code, and make sure to credit me. If you wish to make a modded version of the application, then it must not contain any malicious code or offensive content.
+#### A: Of course! If you wish to make a fork of this repository, go ahead! As long as you don't blatantly steal any code, and make sure to credit me. If you wish to make a modded version of the application, then it must not contain any malicious code or offensive content. {#fork-a}
 
 
 ### Q: How can I contribute to this repository? {#contributing}
-#### A: Fork the repository and submit a pull request. This will allow developers of HermesPy to review code changes and features, and if they are accepted, then they will automatically "merge", "squash", or "rebase" with the latest version of the original repository.
+#### A: Fork the repository and submit a pull request. This will allow developers of HermesPy to review code changes and features, and if they are accepted, then they will automatically "merge", "squash", or "rebase" with the latest version of the original repository. {#contributing-a}
 
 
 ### Q: Is HermesPy safe to use? {#safe}
-#### A: HermesPy does not contain any malicious code or offensive content, but sometimes security vulnerabilities may slip through. If you use this application, you do so at your own risk, and the developers will not take responsibility for any harm caused.
+#### A: HermesPy does not contain any malicious code or offensive content, but sometimes security vulnerabilities may slip through. If you use this application, you do so at your own risk. {#safe-a}
 
 
 ### Q: My question isn't here, what should I do? {#no-faq}
-#### A: If you are unsure about anything, open an issue on GitHub and ask me! If you wish to add a question to the FAQ, then please submit a pull request.
+#### A: If you are unsure about anything, open an issue on GitHub and ask me! If you wish to add a question to the FAQ, then please submit a pull request. {#no-faq}
 
 
 
