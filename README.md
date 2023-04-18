@@ -1,4 +1,4 @@
-# IMPORTANT {#important}
+# IMPORTANT
 
 *HermesPy* is **ONLY** compatible with ***Windows***.
 
