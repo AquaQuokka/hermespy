@@ -4,7 +4,7 @@
 
 *Notepad* **MUST** be installed for *HermesPy* to work.
 
-# HermesPy {#}
+# HermesPy
 
 HermesPy is an SMTP client which is lightweight, fast, and easy to use.
 
